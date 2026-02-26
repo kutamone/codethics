@@ -1,0 +1,9 @@
+body{
+    background-image: url("lightpost.jpg");
+     background-size: 100%; 
+ }
+ .semi-transparent-text { 
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */ 
+    padding: 10px;
+ }
