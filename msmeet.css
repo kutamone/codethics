@@ -1,0 +1,46 @@
+body{
+    background-image: url("lightpost.jpg");
+     background-size: 100%; 
+ }
+ .semi-transparent-text { 
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */ 
+    padding: 10px;
+ }
+/* Basic link styles */
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Helevetica Neue', Arial, sans-serif; /* White color for links */
+}
+
+/* Link states */
+a:link, a:visited {
+    color: #fff; /* White color for unvisited and visited links */
+}
+
+a:hover {
+    color: #fff; /* Black color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+a:active {
+    color: #fff; /* Black color when active */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Right justify the links */
+}
+
+nav ul li {
+    margin-right: 20px; /* Add space between the links */
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+}
